@@ -1,9 +1,120 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>A Cow's Journey</title>
-</head>
-<body>
-    <p>Once upon a time, there was a cow named Daisy. She lived on a peaceful farm with her animal friends. Every morning, she loved to graze on fresh green grass. One day, she wandered too far from the farm. She found herself in a big, dark forest. Feeling scared, she started to moo loudly for help. The farmer heard her cries and came searching for her. With his lantern, he guided Daisy back to the farm safely. Daisy was happy to be home and never strayed far again. From that day on, she enjoyed her peaceful life with gratitude.</p>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Aunabil Chakma is a Computer Science PhD student researching natural language processing, large language models, and in-context learning."
+    />
+    <meta name="color-scheme" content="light" />
+    <title>Aunabil Chakma</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="assets/js/main.js"></script>
+  </head>
+  <body class="page-home">
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="brand" href="index.html">Aunabil Chakma</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="primary-links" aria-label="Toggle navigation">
+          <span></span>
+        </button>
+        <div class="nav-links" id="primary-links">
+          <a href="index.html" aria-current="page">about</a>
+          <a href="publications.html">publications</a>
+          <a href="education.html">education</a>
+          <a href="experience.html">experience</a>
+          <a href="cv.html">CV</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page container" id="content">
+      <header>
+        <h1 class="page-title"><strong>Aunabil</strong> Chakma</h1>
+        <!-- <p class="subtitle">PhD student in Computer Science at the University of Arizona</p> -->
+      </header>
+
+      <section class="intro" aria-label="Research profile">
+        <div class="bio">
+          <p>
+            I am a second-year Computer Science PhD student at the <strong>University of Arizona</strong>, working with Professors
+            <a href="https://eduardoblanco.github.io/">Eduardo Blanco</a> and
+            <a href="https://surdeanu.cs.arizona.edu//mihai/">Mihai Surdeanu</a>. I am broadly interested in improving large language models,
+            including their training, reasoning capabilities, alignment, and ability to adapt to new tasks.
+          </p>
+          <p>
+            My recent work has focused on <strong>relation extraction, prompt optimization, and in-context learning</strong>, including methods
+            for selecting better examples and refining prompts for few-shot tasks.
+          </p>
+        </div>
+        <aside class="profile">
+          <img class="profile-photo" src="assets/img/profile_photo.jpg" alt="Aunabil Chakma" width="520" height="608" />
+          <div class="profile-meta">
+            <span>San Diego, CA</span>
+          </div>
+          <div class="profile-links" aria-label="Academic and professional profiles">
+            <a href="https://scholar.google.com/citations?user=LQepJpUAAAAJ&amp;hl=en">Google Scholar</a>
+            <a href="https://github.com/Aunabil4602">GitHub</a>
+            <a href="https://www.linkedin.com/in/aunabil-chakma-56052119b">LinkedIn</a>
+          </div>
+          <a class="profile-email" href="mailto:aunabilchakma@arizona.edu">&#128231;aunabilchakma@arizona.edu</a>
+        </aside>
+      </section>
+
+      <section class="home-news" aria-labelledby="news-heading">
+        <h2 id="news-heading"><a href="news.html" style="color: inherit">news</a></h2>
+        <div
+          class="news-frame"
+          data-news-source="news.html"
+          tabindex="0"
+          aria-label="Recent news; scroll for more"
+          aria-live="polite"
+        >
+          <p>Loading news…</p>
+        </div>
+      </section>
+
+      <section class="selected-publications" aria-labelledby="selected-publications-heading">
+        <h2 id="selected-publications-heading"><a href="publications.html" style="color: inherit">selected publications</a></h2>
+        <article class="publication">
+          <span class="venue-badge">ACL</span>
+          <div>
+            <h3 class="publication-title">
+              <a href="https://aclanthology.org/2026.acl-long.1664/"
+                >Structured Semantic Information Helps Retrieve Better Examples for In-Context Learning Applied to Few-Shot Relation Extraction</a
+              >
+            </h3>
+            <p class="authors"><strong>Aunabil Chakma</strong>, Mihai Surdeanu, and Eduardo Blanco</p>
+            <p class="venue">ACL 2026 · Oral presentation</p>
+          </div>
+        </article>
+        <article class="publication">
+          <span class="venue-badge">arXiv</span>
+          <div>
+            <h3 class="publication-title">
+              <a href="https://arxiv.org/abs/2606.29639">Two-Stage Prompt Optimization for Few-Shot Relation Extraction</a>
+            </h3>
+            <p class="authors"><strong>Aunabil Chakma</strong>, Mihai Surdeanu, and Eduardo Blanco</p>
+            <p class="venue">arXiv, 2026</p>
+          </div>
+        </article>
+        <article class="publication">
+          <span class="venue-badge">arXiv</span>
+          <div>
+            <h3 class="publication-title">
+              <a href="https://arxiv.org/abs/2410.10219">ChakmaNMT: Machine Translation for a Low-Resource and Endangered Language</a>
+            </h3>
+            <p class="authors"><strong>Aunabil Chakma</strong>, Aditya Chakma, Masum Hasan, et al.</p>
+            <p class="venue">arXiv, 2025</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© 2026 Aunabil Chakma. Design based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>.</div>
+    </footer>
+  </body>
 </html>
