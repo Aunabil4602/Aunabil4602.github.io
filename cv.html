@@ -7,6 +7,7 @@
     <meta name="color-scheme" content="light" />
     <title>CV | Aunabil Chakma</title>
     <link rel="stylesheet" href="assets/css/style.css" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <script defer src="assets/js/main.js"></script>
   </head>
   <body>
@@ -30,17 +31,19 @@
     <main class="page container" id="content">
       <h1 class="page-title">CV</h1>
       <div class="cv-toolbar">
-        <p class="subtitle">Scroll inside the frame to read the CV.</p>
-        <a class="primary-button" href="assets/pdf/Aunabil_Chakma_CV.pdf" download>Download CV</a>
+        <a class="primary-button" href="assets/pdf/CV.pdf" download>Download CV</a>
       </div>
-      <div class="cv-preview-frame" tabindex="0" aria-label="Scrollable preview of Aunabil Chakma's curriculum vitae">
-        <img
-          class="cv-page-image"
-          src="assets/img/Aunabil_Chakma_CV.png"
-          alt="Aunabil Chakma curriculum vitae"
-          width="1081"
-          height="1400"
-        />
+      <div class="pdfjs-frame" data-pdf-viewer data-pdf-source="assets/pdf/CV.pdf" tabindex="0" aria-label="Scrollable CV PDF viewer">
+        <div class="pdf-frame-toolbar">
+          <div class="cv-zoom-controls" aria-label="CV zoom controls">
+            <button class="zoom-button" id="cv-zoom-out" type="button" aria-label="Zoom out">−</button>
+            <span id="cv-zoom-level" aria-live="polite">135%</span>
+            <button class="zoom-button" id="cv-zoom-in" type="button" aria-label="Zoom in">+</button>
+          </div>
+        </div>
+        <div class="pdf-pages" data-pdf-pages>
+          <p class="pdf-status">Loading CV…</p>
+        </div>
       </div>
     </main>
 
