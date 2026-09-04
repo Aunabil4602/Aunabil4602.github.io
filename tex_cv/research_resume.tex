@@ -1,0 +1,153 @@
+\documentclass[11pt]{extarticle}
+
+\usepackage[
+  left=0.68in,
+  right=0.68in,
+  top=0.55in,
+  bottom=0.62in
+]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\DisableLigatures{encoding = *, family = *}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[
+  colorlinks=true,
+  urlcolor=linkblue,
+  pdfauthor={Aunabil Chakma},
+  pdftitle={Aunabil Chakma - Research Resume}
+]{hyperref}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\definecolor{linkblue}{RGB}{24,82,122}
+\urlstyle{same}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlist[itemize]{
+  leftmargin=1.25em,
+  itemsep=1.5pt,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+\newlist{contributions}{itemize}{1}
+\setlist[contributions]{
+  label={-},
+  leftmargin=1.55em,
+  itemsep=0pt,
+  topsep=1pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\titleformat{\section}
+  {\Large\bfseries}
+  {}{0pt}{}
+  [\vspace{0.1em}\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+
+\newcommand{\entryheading}[2]{%
+  {\normalsize #1}\hfill{\small #2}\par
+}
+\newcommand{\entrydetail}[1]{{\small #1}\par}
+% Change this single value if the expected graduation date changes.
+\newcommand{\expectedgraduation}{May 2029}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\textbf{Aunabil Chakma}}\\[-1pt]
+  Tucson, AZ \;\textbullet\; 
+  \href{mailto:aunabilchakma@arizona.edu}{aunabilchakma@arizona.edu} \;\textbullet\;
+  \href{https://aunabil4602.github.io/}{Website} \;\textbullet\;
+  \href{https://scholar.google.com/citations?hl=en&user=LQepJpUAAAAJ&view_op=list_works&sortby=pubdate}{Google Scholar} \;\textbullet\;
+  \href{https://github.com/Aunabil4602}{GitHub} \;\textbullet\;
+  \href{https://www.linkedin.com/in/aunabil-chakma-56052119b/}{LinkedIn}
+\end{center}
+
+\vspace{-0.55em}
+\section*{Research Interests}
+{\small Broadly interested in improving large language models, particularly their reasoning, alignment, and in-context learning capabilities.}
+
+\section*{Education}
+\entryheading{\textbf{University of Arizona}}{Tucson, AZ}
+\entrydetail{Ph.D. in Computer Science \hfill Aug 2024 \textendash{} Expected \expectedgraduation}
+\entrydetail{\textit{Working with Prof. Eduardo Blanco and Prof. Mihai Surdeanu}}
+
+\vspace{3pt}
+\entryheading{\textbf{Bangladesh University of Engineering and Technology (BUET)}}{Dhaka, Bangladesh}
+\entrydetail{B.S. in Computer Science and Engineering \hfill Feb 2015 \textendash{} Apr 2019}
+
+\section*{Ongoing Research}
+\entryheading{\textbf{Research Assistant}, Political Science, University of Arizona}{Fall 2026 \textendash{} Present}
+\begin{itemize}
+  \item {\small Co-managing the pretraining of ModernBERT on \textbf{400+ GB} of political-domain text for an NSF-funded political-science project.}
+\end{itemize}
+
+\entryheading{\textbf{Ongoing Ph.D. Research}, University of Arizona}{Jul 2026 \textendash{} Present}
+\begin{itemize}
+  \item {\normalsize\bfseries Efficient LLM Reasoning} {\small Investigating token- and chunk-level importance scoring and reinforcement-learning reward design to shorten reasoning traces while preserving accuracy, with potential applications to efficient long-context processing.}
+\end{itemize}
+
+\section*{Selected Publications \& Previous Research Experience}
+\begin{itemize}
+  \item {\normalsize \textbf{Aunabil Chakma}, Mihai Surdeanu, Eduardo Blanco. \textit{Structured Semantic Information Helps Retrieve Better Examples for In-Context Learning Applied to Few-Shot Relation Extraction}. [\textbf{ACL 2026 (Oral)}]}
+  \begin{contributions}
+    \item {\small Developed a hybrid method combining semantic-rule retrieval, clustering, and LLM-generated demonstrations; achieved state-of-the-art FS-TACRED performance.}
+  \end{contributions}
+    \item {\normalsize \textbf{Aunabil Chakma}, Aditya Chakma, Masum Hasan, Soham Khisa, Chumui Tripura, Rifat Shahriyar. \textit{ChakmaNMT: Machine Translation for a Low-Resource and Endangered Language via Transliteration}. [\textbf{WMT 2026}]}
+  \begin{contributions}
+    \item {\small Built machine-translation resources for an \textbf{extremely low-resource language} by collecting and curating \textbf{15K} Chakma\textendash Bangla parallel pairs and \textbf{42K} monolingual samples; trained and fine-tuned sequence-to-sequence models and evaluated LLM-based in-context learning.}
+  \end{contributions}
+  \item {\normalsize \textbf{Aunabil Chakma}, Mihai Surdeanu, Eduardo Blanco. \textit{Two-Stage Prompt Optimization for Few-Shot Relation Extraction: From Reasoning-Guided Search to Gradient-Guided Refinement}. [\textbf{arXiv 2026; preparing for ICLR/NAACL 2027 submission}]}
+  \begin{contributions}
+    \item {\small Designed GradPO, a gradient-guided plug-in refiner using context-aware multi-span, multi-token edits and beam search; it was the most consistent among the evaluated refiners.}
+  \end{contributions}
+
+% \end{itemize}
+
+% \newpage
+% \begin{center}
+%   \textbf{Aunabil Chakma}
+% \end{center}
+% \vspace{-1.1em}
+% \section*{Selected Publications \& Previous Research Experience (continued)}
+% \begin{itemize}
+  \item {\normalsize \textbf{Aunabil Chakma}, Masum Hasan. \textit{LowResource at BLP-2023 Task 2: Leveraging BanglaBERT for Low Resource Sentiment Analysis of Bangla Language}. [\textbf{BLP Workshop @ EMNLP 2023}]}
+  \begin{contributions}
+    \item {\small Fine-tuned BanglaBERT with random token dropping, placed \textbf{3rd of 30 teams}.}
+  \end{contributions}
+  \item {\normalsize \textbf{Research Assistant}, Narrative Reframing, University of Arizona \hfill {\small Jan 2025 \textendash{} Dec 2025}}
+  \begin{contributions}
+    \item {\small Developed graph-informed and social-science-theory-guided prompting strategies for narrative rewriting in a DARPA-funded project; worked with Eduardo Blanco and Joshua Garland.}
+  \end{contributions}
+\end{itemize}
+
+\pagebreak
+
+\section*{Industry Experience}
+\entryheading{\textbf{Software Engineer II} (promoted twice), Therapservices}{Nov 2020 \textendash{} Jul 2024}
+\entrydetail{\textit{Dhaka, Bangladesh}}
+\begin{itemize}
+  \item {\small Built HIPAA-compliant Java SaaS systems serving \textbf{500,000+ individuals} for U.S. government and private organizations. Primary contributor to the External Data Transfer and Automatic File Transfer modules, replacing DevOps-managed manual scripts with scalable automated workflows.}
+\end{itemize}
+
+\section*{Technical Skills}
+{\small Python, Java; PyTorch, Hugging Face Transformers, TensorFlow; Git, FAISS}
+
+\section*{Awards \& Academic Service}
+\begin{itemize}
+  \item {\normalsize\textbf{TA of the Month}} {\small in Dec 2024 and Apr 2026; Teaching Assistant during Fall 2024, Summer 2025, Spring 2026, and Summer 2026.}
+  \item {\normalsize\textbf{3rd place out of 30 teams}}{\small, BLP 2023 Shared Task on Sentiment Analysis of Bangla Social Media Posts.}
+  \item {\normalsize\textbf{4th place out of 39 teams}}{\small, BUET Intra CSE-14 Programming Contest, 2016.}
+  \item {\small Solved \textbf{1,000+ programming problems}; Codeforces maximum rating: \textbf{1706}.}
+  \item {\normalsize\textbf{Reviewer:}} {\small EACL Demos 2026\textendash 2027; AACL-IJCNLP Demos 2025\textendash 2026; NeurIPS 2025 Reliable ML Workshop. \textbf{Ad-hoc reviewer:} AAAI\textendash 2027; ARR 2025\textendash 2026; EMNLP 2025 Demos.}
+\end{itemize}
+
+\end{document}

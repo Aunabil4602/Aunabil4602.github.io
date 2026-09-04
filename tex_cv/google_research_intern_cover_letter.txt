@@ -1,0 +1,14 @@
+Dear Google Research Hiring Committee,
+
+I am applying for the Research Intern, PhD position for Summer 2027. I am a Computer Science 3rd-year PhD student at the University of Arizona, advised by Eduardo Blanco and collaborating with Mihai Surdeanu. My research broadly focuses on improving large language models, including reasoning, alignment, in-context learning, prompting, and retrieval.
+
+My recent ACL 2026 Oral paper introduced a hybrid semantic example-retrieval method that achieved state-of-the-art performance on FS-TACRED. I also developed GradPO, a gradient-guided prompt-refinement method, and currently investigate token- and chunk-level importance scoring and reinforcement-learning rewards for shorter and accurate reasoning. In parallel, I am helping pretrain ModernBERT on more than 200 GB of political-domain text. My previous software-engineering experience has also prepared me to build reliable and scalable research systems.
+
+My experience conducting NLP research, publishing at a major conference, and building systems would allow me to contribute effectively to Google’s research teams. I would welcome the opportunity to develop impactful research while collaborating with Google researchers and engineers.
+
+Thank you for your time and consideration.
+
+Sincerely,
+Aunabil Chakma
+aunabilchakma@arizona.edu
+https://aunabil4602.github.io/
