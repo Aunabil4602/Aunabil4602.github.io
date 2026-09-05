@@ -1,0 +1,14 @@
+Dear Megagon Labs Hiring Team,
+
+I am a Ph.D. student in Computer Science at the University of Arizona, and I am excited to apply for the Summer Research Internship at Megagon Labs. My research focuses on large language models, particularly reasoning, in-context learning, and building more effective and reliable LLM systems.
+
+Recently, I published an paper at ACL 2026 on improving demonstration retrieval for in-context learning, as well as a paper at WMT 2026 on machine translation for an extremely low-resource language. My current research explores making LLM reasoning more efficient, and I am also involved in pretraining a language model on a large collection of domain-specific text. Across these projects, I have become interested in how we can make better and efficient use of the information and computation available to LLMs.
+
+I am especially interested in Megagon Labs because of your work on LLMs, retrieval, and agentic and compound AI systems. I am interested in how LLMs can use external information and tools to solve more complex tasks, while still reasoning efficiently and reliably. These directions are closely related to the questions I am exploring in my Ph.D., and I would be excited to work on them at Megagon.
+
+Before starting my Ph.D., I worked as a software engineer for nearly four years, where I built large-scale software systems used in real-world settings. I believe this combination of research and engineering experience would help me contribute to both the research and practical sides of projects at Megagon Labs.
+
+Thank you for considering my application. I would be excited to have the opportunity to work with and learn from the researchers at Megagon Labs.
+
+Sincerely,
+Aunabil Chakma

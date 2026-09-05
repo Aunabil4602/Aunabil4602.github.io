@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1788553426.43631 "/Users/aunabilchakma/Study/Research/random/Aunabil4602.github.io/tex_cv/research_resume.tex" "research_resume.pdf" "research_resume" 1788553427.20838 0
-  "/Users/aunabilchakma/Study/Research/random/Aunabil4602.github.io/tex_cv/research_resume.tex" 1788553426.14915 7330 c8410bbf2fe86c8ba8e5430a59919822 ""
+["pdflatex"] 1788634787.17813 "/Users/aunabilchakma/Study/Research/random/Aunabil4602.github.io/tex_cv/research_resume.tex" "research_resume.pdf" "research_resume" 1788634787.88714 0
+  "/Users/aunabilchakma/Study/Research/random/Aunabil4602.github.io/tex_cv/research_resume.tex" 1788634786.62126 7313 fa012703a5824a42372e0278f2ca692b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -74,9 +74,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1724722591.72796 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1724722507 8221424 78cf9b6f41556cf10878c51aa80f22ac ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "research_resume.aux" 1788553427.14427 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "research_resume.out" 1788553426.93005 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "research_resume.tex" 1788553426.14915 7330 c8410bbf2fe86c8ba8e5430a59919822 ""
+  "research_resume.aux" 1788634787.82584 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "research_resume.out" 1788634787.61942 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "research_resume.tex" 1788634786.62126 7313 fa012703a5824a42372e0278f2ca692b ""
   (generated)
   "research_resume.aux"
   "research_resume.log"
